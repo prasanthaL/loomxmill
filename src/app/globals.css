@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f8f9fa;
+  --foreground: #121417;
+  --primary: #FF4A2B;
+  --secondary: #373D48;
+}
+
+@theme {
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-dark: #121417;
+  --color-canvas: #f8f9fa;
+
+  --font-heading: "Outfit", sans-serif;
+
+  --breakpoint-xs: 375px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0d0e11;
+    --foreground: #f8f9fa;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), sans-serif;
+  scroll-behavior: smooth;
+}
+
+.heading-font {
+  font-family: var(--font-heading);
+}
+
+.glass-morphism {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.text-gradient {
+  background: linear-gradient(to right, #FF4A2B, #ff7b4d);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
