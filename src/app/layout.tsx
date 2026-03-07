@@ -21,7 +21,7 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Loom X | Excellence in Pile",
+  title: "Loom X | Made for Designers",
   description: "Premium Play Boa fabrics engineered for luxury interiors and high-fashion. High-density pile and industrial durability.",
 };
 
