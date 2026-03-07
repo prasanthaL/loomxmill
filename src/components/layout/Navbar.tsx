@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import { Logo } from "@/components/ui/Logo";
-import { Menu, X, ShoppingBag } from "lucide-react";
+import { Menu, X } from "lucide-react";
 
 export const Navbar = () => {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -64,16 +64,9 @@ export const Navbar = () => {
                         GET SAMPLES
                     </a>
 
-                    <button className="bg-primary text-white p-2 rounded-full hover:scale-110 transition-transform shadow-lg shadow-primary/20">
-                        <ShoppingBag size={18} />
-                    </button>
                 </div>
 
-                {/* Mobile Toggle */}
                 <div className="md:hidden flex items-center gap-3">
-                    <button className={isScrolled ? "text-[#373D48]" : "text-white"}>
-                        <ShoppingBag size={20} />
-                    </button>
                     <button
                         onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
                         className={`p-2 ${isScrolled ? "text-[#373D48]" : "text-white"}`}

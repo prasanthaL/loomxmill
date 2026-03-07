@@ -86,13 +86,13 @@ export const Footer = () => {
 
                         {/* Email */}
                         <li>
-                            <a href="mailto:info@loomx.com" className="flex items-center gap-3 group hover:text-white transition-colors">
+                            <a href="mailto:loomxlk@gmail.com" className="flex items-center gap-3 group hover:text-white transition-colors">
                                 <span className="flex-shrink-0 w-8 h-8 rounded-full bg-white/5 border border-white/10 flex items-center justify-center group-hover:bg-primary group-hover:border-primary transition-colors">
                                     <Mail size={14} />
                                 </span>
                                 <div>
                                     <div className="text-[10px] uppercase tracking-widest text-gray-500 mb-0.5">Email</div>
-                                    <div className="font-bold text-white">info@loomx.com</div>
+                                    <div className="font-bold text-white">loomxlk@gmail.com</div>
                                 </div>
                             </a>
                         </li>
@@ -104,7 +104,7 @@ export const Footer = () => {
                             </span>
                             <div>
                                 <div className="text-[10px] uppercase tracking-widest text-gray-500 mb-0.5">Location</div>
-                                <div className="font-bold text-white text-xs">Colombo, Sri Lanka</div>
+                                <div className="font-bold text-white text-xs">Kadawatha, Sri Lanka</div>
                             </div>
                         </li>
                     </ul>
