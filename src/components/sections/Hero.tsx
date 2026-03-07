@@ -43,7 +43,7 @@ export const Hero = () => {
                         <div className="flex flex-col sm:flex-row gap-4">
                             <Link href="#texture-series" className="contents">
                                 <button className="px-8 py-4 bg-primary text-white font-bold rounded-sm hover:translate-y-[-2px] hover:shadow-2xl hover:shadow-primary/30 transition-all flex items-center justify-center gap-2 group">
-                                    EXPLORE TEXTURES
+                                    EXPLORE FABRICS
                                     <ChevronRight size={18} className="group-hover:translate-x-1 transition-transform" />
                                 </button>
                             </Link>
