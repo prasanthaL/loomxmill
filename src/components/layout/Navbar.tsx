@@ -27,8 +27,8 @@ export const Navbar = () => {
     return (
         <nav
             className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${isScrolled
-                    ? "bg-white/95 backdrop-blur-md shadow-lg shadow-black/10 py-3"
-                    : "bg-gradient-to-b from-black/60 to-transparent py-5"
+                ? "bg-white/95 backdrop-blur-md shadow-lg shadow-black/10 py-3"
+                : "bg-gradient-to-b from-black/60 to-transparent py-5"
                 }`}
         >
             <div className="container mx-auto px-6 md:px-10 flex items-center justify-between">
@@ -43,8 +43,8 @@ export const Navbar = () => {
                             key={link.name}
                             href={link.href}
                             className={`relative text-sm font-semibold tracking-wide transition-colors duration-200 group ${isScrolled
-                                    ? "text-[#373D48] hover:text-primary"
-                                    : "text-white hover:text-primary"
+                                ? "text-[#373D48] hover:text-primary"
+                                : "text-white hover:text-primary"
                                 }`}
                         >
                             {link.name}
@@ -57,8 +57,8 @@ export const Navbar = () => {
                     <a
                         href="#contact"
                         className={`px-5 py-2.5 text-xs font-black tracking-widest uppercase transition-all duration-300 ${isScrolled
-                                ? "bg-primary text-white hover:bg-primary/80"
-                                : "border border-white/30 text-white hover:bg-primary hover:border-primary"
+                            ? "bg-primary text-white hover:bg-primary/80"
+                            : "border border-white/30 text-white hover:bg-primary hover:border-primary"
                             }`}
                     >
                         GET SAMPLES

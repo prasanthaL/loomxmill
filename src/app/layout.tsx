@@ -21,8 +21,8 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "LoomX | Industrial Textile Innovation",
-  description: "Advanced fiber engineering and premium textile manufacturing for the next generation.",
+  title: "Loom X | Excellence in Pile",
+  description: "Premium Play Boa fabrics engineered for luxury interiors and high-fashion. High-density pile and industrial durability.",
 };
 
 export default function RootLayout({

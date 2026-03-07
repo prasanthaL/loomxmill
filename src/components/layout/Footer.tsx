@@ -35,12 +35,12 @@ export const Footer = () => {
 
                 {/* Industries */}
                 <div className="flex flex-col gap-6">
-                    <h5 className="text-xs uppercase font-black tracking-widest text-primary">Industries</h5>
+                    <h5 className="text-xs uppercase font-black tracking-widest text-primary">Sectors</h5>
                     <ul className="flex flex-col gap-3 text-sm text-gray-400">
-                        <li className="hover:text-white transition-colors cursor-pointer capitalize">Automotive</li>
-                        <li className="hover:text-white transition-colors cursor-pointer capitalize">Aerospace</li>
-                        <li className="hover:text-white transition-colors cursor-pointer capitalize">Fashion Technology</li>
-                        <li className="hover:text-white transition-colors cursor-pointer capitalize">Civil Engineering</li>
+                        <li><a href="#collections" className="hover:text-white transition-colors cursor-pointer capitalize">Collections</a></li>
+                        <li><a href="#innovation" className="hover:text-white transition-colors cursor-pointer capitalize">Innovation</a></li>
+                        <li><a href="#craft" className="hover:text-white transition-colors cursor-pointer capitalize">Craftsmanship</a></li>
+                        <li><a href="#about" className="hover:text-white transition-colors cursor-pointer capitalize">About</a></li>
                     </ul>
                 </div>
 

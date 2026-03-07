@@ -4,6 +4,7 @@ import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { ChevronRight } from "lucide-react";
+import Link from "next/link";
 
 export const Hero = () => {
     return (
@@ -40,13 +41,17 @@ export const Hero = () => {
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4">
-                            <button className="px-8 py-4 bg-primary text-white font-bold rounded-sm hover:translate-y-[-2px] hover:shadow-2xl hover:shadow-primary/30 transition-all flex items-center justify-center gap-2 group">
-                                EXPLORE COLLECTIONS
-                                <ChevronRight size={18} className="group-hover:translate-x-1 transition-transform" />
-                            </button>
-                            <button className="px-8 py-4 border border-white/20 text-white font-bold rounded-sm hover:bg-white/5 transition-colors">
-                                VIEW TECHNOLOGY
-                            </button>
+                            <Link href="#texture-series" className="contents">
+                                <button className="px-8 py-4 bg-primary text-white font-bold rounded-sm hover:translate-y-[-2px] hover:shadow-2xl hover:shadow-primary/30 transition-all flex items-center justify-center gap-2 group">
+                                    EXPLORE TEXTURES
+                                    <ChevronRight size={18} className="group-hover:translate-x-1 transition-transform" />
+                                </button>
+                            </Link>
+                            <Link href="#collections" className="contents">
+                                <button className="px-8 py-4 border border-white/20 text-white font-bold rounded-sm hover:bg-white/5 transition-colors">
+                                    VIEW TECHNOLOGY
+                                </button>
+                            </Link>
                         </div>
                     </motion.div>
                 </div>
@@ -61,24 +66,6 @@ export const Hero = () => {
                     LOOMX
                 </motion.div>
             </div>
-
-            {/* Stats Overlay */}
-            {/* <div className="absolute bottom-10 left-0 right-0 z-10 hidden md:block">
-                <div className="container mx-auto px-6 flex items-center gap-12 text-white/60">
-                    <div className="flex flex-col">
-                        <span className="text-primary text-2xl font-black">1.2B+</span>
-                        <span className="text-[10px] uppercase font-bold tracking-widest">METERS PRODUCED</span>
-                    </div>
-                    <div className="flex flex-col">
-                        <span className="text-primary text-2xl font-black">84</span>
-                        <span className="text-[10px] uppercase font-bold tracking-widest">GLOBAL PATENTS</span>
-                    </div>
-                    <div className="flex flex-col">
-                        <span className="text-primary text-2xl font-black">2026</span>
-                        <span className="text-[10px] uppercase font-bold tracking-widest">ECO-FIBER SERIES</span>
-                    </div>
-                </div>
-            </div> */}
         </section>
     );
 };

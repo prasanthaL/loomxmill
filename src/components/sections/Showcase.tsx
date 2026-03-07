@@ -6,10 +6,10 @@ import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
 
 const categories = [
-    { title: "Industrial Grade", desc: "For high-performance machinery and reinforcement.", accent: "bg-primary" },
-    { title: "Premium Apparel", desc: "Redefining luxury textiles with precision-woven fibers.", accent: "bg-secondary" },
-    { title: "Eco-Tech Fibers", desc: "Carbon-neutral production for sustainable innovation.", accent: "bg-green-600" },
-    { title: "Smart Textiles", desc: "Integrated electronics and conductive thread technology.", accent: "bg-blue-600" },
+    { title: "Commercial Grade", desc: "High-rub count textures for furniture and architectural installations.", accent: "bg-primary" },
+    { title: "Premium Plush", desc: "Redefining luxury fashion with ultra-soft, high-pile precision.", accent: "bg-secondary" },
+    { title: "Eco-Boa Fibers", desc: "Sustainable production utilizing recycled polymers for the conscious creator.", accent: "bg-green-600" },
+    { title: "Technical Textures", desc: "Specialized backings for ease of tailoring and industrial application.", accent: "bg-blue-600" },
 ];
 
 export const Showcase = () => {
@@ -26,12 +26,11 @@ export const Showcase = () => {
                         <span className="text-primary font-bold tracking-[0.3em] uppercase text-xs mb-3 block">Materials Library</span>
                         <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-secondary dark:text-white leading-tight uppercase">
                             Engineered <br className="hidden sm:block" />
-                            <span className="text-primary">Performance</span>
+                            <span className="text-primary">Comfort</span>
                         </h2>
                     </div>
                     <p className="max-w-md text-sm sm:text-base text-gray-500 dark:text-gray-400 leading-relaxed md:pb-2">
-                        Our specialized loom technology allows us to weave complex fiber matrices,
-                        pushing the boundaries of textile engineering.
+                        Our specialized weaving technology allows us to create the deepest, most consistent Play Boa matrices in the market.
                     </p>
                 </div>
 
@@ -56,11 +55,11 @@ export const Showcase = () => {
                 </div>
 
                 {/* ── Texture Series (New Section) ── */}
-                <div className="mb-12 sm:mb-16">
+                <div id="texture-series" className="mb-12 sm:mb-16">
                     <div className="flex items-center gap-4 mb-8 sm:mb-10">
                         <div className="h-px bg-black/10 dark:bg-white/10 flex-1"></div>
                         <h3 className="text-secondary dark:text-white/60 text-[10px] sm:text-xs font-black uppercase tracking-[0.4em]">
-                            Texture Series 01 / High-Pile
+                            TEXTURE SERIES 01 / SIGNATURE HIGH-PILE
                         </h3>
                         <div className="h-px bg-black/10 dark:bg-white/10 flex-1"></div>
                     </div>

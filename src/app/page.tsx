@@ -1,22 +1,22 @@
 import { Hero } from "@/components/sections/Hero";
 import { Showcase } from "@/components/sections/Showcase";
-import { ArrowRight, Box, Cpu, Droplets } from "lucide-react";
+import { ArrowRight, Layers, Palette, ShieldCheck } from "lucide-react";
 
 const techCards = [
   {
-    icon: Cpu,
-    title: "Smart Fibers",
-    desc: "Conductive threads woven directly into the fabric matrix for real-time sensing.",
+    icon: Layers,
+    title: "High-Density Pile",
+    desc: "Ultra-soft, dense fibers woven for a seamless finish and superior hand-feel.",
   },
   {
-    icon: Droplets,
-    title: "Nano-Shield",
-    desc: "Molecular-level coating providing unprecedented moisture and chemical resistance.",
+    icon: ShieldCheck,
+    title: "Durability-Shield",
+    desc: "Advanced fiber-locking technology to prevent shedding and ensure long-term resilience.",
   },
   {
-    icon: Box,
-    title: "Zero-Waste",
-    desc: "Circular economy manufacturing using 100% recycled industrial polymers.",
+    icon: Palette,
+    title: "Bespoke Shades",
+    desc: "Custom color-matching capabilities for exclusive high-volume production runs.",
   },
 ];
 
@@ -32,10 +32,10 @@ export default function Home() {
           {/* Section header */}
           <div className="mb-10 sm:mb-14">
             <span className="text-primary font-bold tracking-[0.3em] uppercase text-xs mb-3 block">
-              Our Technologies
+              Our Specializations
             </span>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-secondary dark:text-white uppercase leading-tight">
-              Precision <span className="text-primary">Engineering</span>
+              Precision <span className="text-primary">Craft</span>
             </h2>
           </div>
 
@@ -68,20 +68,19 @@ export default function Home() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-10 relative z-10">
           <div className="max-w-4xl">
             <h2 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-white leading-none uppercase mb-6 sm:mb-8">
-              Fabricating the
+              ENGINEERING THE
               <br />
-              <span className="opacity-50">Industrial Future</span>
+              <span className="opacity-50">FUTURE OF TEXTILES</span>
             </h2>
             <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-white/80 leading-relaxed mb-10 sm:mb-12 max-w-2xl">
-              We leverage robotic looms and AI-driven quality control to produce textile solutions
-              that outperform traditional materials in every metric.
+              We leverage advanced knitting and weaving machinery to manufacture premium-quality fabrics with exceptional precision and consistency.
             </p>
             <div className="flex flex-col xs:flex-row flex-wrap gap-4">
               <button className="w-full xs:w-auto px-8 sm:px-10 py-4 sm:py-5 bg-white text-primary font-black uppercase tracking-widest hover:scale-105 transition-transform text-sm">
-                Download Specs
+                DOWNLOAD CATALOG
               </button>
               <button className="w-full xs:w-auto px-8 sm:px-10 py-4 sm:py-5 border-2 border-white/40 text-white font-black uppercase tracking-widest hover:bg-white/10 transition-colors text-sm">
-                Contact Engineering
+                REQUEST A MEETING
               </button>
             </div>
           </div>
