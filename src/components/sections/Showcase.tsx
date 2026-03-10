@@ -8,7 +8,7 @@ import { ArrowUpRight } from "lucide-react";
 const categories = [
     { title: "Commercial Grade", desc: "High-rub count textures for furniture and architectural installations.", accent: "bg-primary" },
     { title: "Premium Plush", desc: "Redefining luxury fashion with ultra-soft, high-pile precision.", accent: "bg-secondary" },
-    { title: "Eco-Boa Fibers", desc: "Sustainable production utilizing recycled polymers for the conscious creator.", accent: "bg-green-600" },
+    { title: "Play Boa Fibers", desc: "Sustainable production utilizing recycled polymers for the conscious creator.", accent: "bg-green-600" },
     { title: "Technical Textures", desc: "Specialized backings for ease of tailoring and industrial application.", accent: "bg-blue-600" },
 ];
 
@@ -47,9 +47,7 @@ export const Showcase = () => {
                             <div className={`w-10 h-[3px] ${cat.accent} transition-all duration-500 group-hover:w-full rounded-full`} />
                             <h3 className="text-lg sm:text-xl font-black text-secondary dark:text-white uppercase">{cat.title}</h3>
                             <p className="text-xs sm:text-sm text-gray-400 leading-relaxed flex-1">{cat.desc}</p>
-                            <div className="flex items-center gap-1.5 text-primary font-bold text-xs uppercase opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                View Collection <ArrowUpRight size={13} />
-                            </div>
+
                         </motion.div>
                     ))}
                 </div>

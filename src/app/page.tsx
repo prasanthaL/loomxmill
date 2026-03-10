@@ -52,9 +52,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-lg sm:text-xl font-bold uppercase tracking-tight">{title}</h3>
                 <p className="text-gray-500 text-sm leading-relaxed flex-1">{desc}</p>
-                <div className="flex items-center gap-2 text-xs font-bold text-primary cursor-pointer group-hover:gap-4 transition-all duration-300">
-                  LEARN MORE <ArrowRight size={13} />
-                </div>
+
               </div>
             ))}
           </div>

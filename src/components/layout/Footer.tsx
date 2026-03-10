@@ -39,7 +39,6 @@ export const Footer = () => {
                     <ul className="flex flex-col gap-3 text-sm text-gray-400">
                         <li><a href="#collections" className="hover:text-white transition-colors cursor-pointer capitalize">Collections</a></li>
                         <li><a href="#innovation" className="hover:text-white transition-colors cursor-pointer capitalize">Innovation</a></li>
-                        <li><a href="#craft" className="hover:text-white transition-colors cursor-pointer capitalize">Craftsmanship</a></li>
                         <li><a href="#about" className="hover:text-white transition-colors cursor-pointer capitalize">About</a></li>
                     </ul>
                 </div>
