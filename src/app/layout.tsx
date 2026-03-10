@@ -21,20 +21,20 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Loom X | Play Boa Fabic Supplier",
+  title: "Loom X | Play Boa Fabic Supplier in Sri Lanka",
   description:
     "Premium Play Boa fabrics engineered for luxury interiors and high-fashion. High-density pile and industrial durability.",
   openGraph: {
-    title: "Loom X | Play Boa Fabic Supplier",
+    title: "Loom X | Play Boa Fabic Supplier in Sri Lanka",
     description: "Premium Play Boa fabrics engineered for luxury interiors and high-fashion. High-density pile and industrial durability.",
     url: "https://www.loomxmill.com",
-    siteName: "Loom X | Play Boa Fabic Supplier",
+    siteName: "Loom X | Play Boa Fabic Supplier in Sri Lanka",
     images: [
       {
         url: "https://res.cloudinary.com/dxwdgozsp/image/upload/v1773119668/facc7ff3-31da-4f23-8e70-b029d60ef19b_l8pyhd.png",
         width: 1200,
         height: 630,
-        alt: "Loom X | Play Boa Fabic Supplier",
+        alt: "Loom X | Play Boa Fabic Supplier in Sri Lanka",
       },
     ],
     locale: "en_US",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Loom X | Play Boa Fabic Supplier",
+    title: "Loom X | Play Boa Fabic Supplier in Sri Lanka",
     description: "Premium Play Boa fabrics engineered for luxury interiors and high-fashion. High-density pile and industrial durability.",
     images: [
       "https://res.cloudinary.com/dxwdgozsp/image/upload/v1773119668/facc7ff3-31da-4f23-8e70-b029d60ef19b_l8pyhd.png",
