@@ -33,7 +33,9 @@ export const Navbar = () => {
             <div className="container mx-auto px-6 md:px-10 flex items-center justify-between">
 
                 {/* Logo — always white on hero, dark when scrolled */}
-                <LogoWithTheme scrolled={isScrolled} />
+                <a href="#" aria-label="Back to top" className="focus:outline-none">
+                    <LogoWithTheme scrolled={isScrolled} />
+                </a>
 
                 {/* Desktop Links */}
                 <div className="hidden md:flex items-center gap-8">
